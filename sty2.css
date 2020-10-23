@@ -1,0 +1,100 @@
+
+body { 
+  background-color: #202020;
+	color: #DADADA; 
+	font-family: Trebuchet MS !important;
+  font-size: 14px;
+  margin: 0 !important;
+	   
+	   }
+
+table.Tabela_2020 {
+  width: 1000px;
+  font-size: 14px;
+  /* color: green; */
+}
+
+table.Tabela_2020 td#Col1 {
+  vertical-align: top;
+  /* background-color: #E5E8E8; */
+  /* padding-left: 15px; */
+  /* padding-top: 15px; */
+  /* color: green; */
+}
+
+table.Tabela_2020 td#Col2 {
+  vertical-align: top;
+  /* background-color: #E5E8E8; */
+  /* padding-left: 15px; */
+  /* padding-top: 15px; */
+  /* color: green; */
+}
+
+a:link {
+    text-decoration: none;
+    color: #E6D800;
+}
+
+a:visited {
+    /* text-decoration: underline; */
+    /* color: #4169E1; */
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0AFE03;
+}
+
+a:active {
+    text-decoration: none;
+    /* color: #4169E1; */
+}
+
+send {
+	font-size: 22px;
+	/* color: blue; */
+}
+
+titulos {
+	font-size: 22px;
+	/* color: blue; */
+}
+
+div.separa {		
+	position: absolute;   
+    width: 500px;
+    background-color: #DADADA;     
+    height: 1px;
+    /* border-bottom: 1px solid black; */
+}
+
+
+/* FOOTER (WRAPPER) # # # # # # # # # # # # # # # # # # # # # */
+
+TEXTOFOOTER {
+  color: #E6D800;
+}
+
+div.FOOTER_wrapper {
+	min-height: 100%;
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -30px;
+}
+
+div.FOOTER_push {
+  height: 100px;
+}
+
+div.FOOTER_footer {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  height: 30px;
+  padding-left: 10px;    
+	font-size: 12px;
+  background-color: #000000;
+  /* color: #E6D800; */
+  opacity:0.8;
+}
